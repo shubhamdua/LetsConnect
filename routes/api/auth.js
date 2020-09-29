@@ -5,7 +5,7 @@ const config = require('config');
 const bcrypt = require('bcryptjs');
 const { check, validationResult } = require('express-validator');
 const auth = require('../../middleware/auth');
-const User = require('../../models/Users');
+const User = require('../../models/User');
 
 // @route   GET api/auth
 // @desc    Test Route
@@ -20,7 +20,7 @@ router.get('/', auth, async (req, res) => {
   }
 });
 
-// @route   POST api/login
+// @route   POST api/auth
 // @desc    Authenticate user and get Token
 // @access  Public
 router.post(
