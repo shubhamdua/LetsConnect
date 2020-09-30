@@ -1,4 +1,6 @@
 {
   "mongoDbURI": "mongodb+srv://shubh1997:shubh1997@letsconnect.twixr.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtToken": "shubh@Dua!1997"
+  "jwtToken": "shubh@Dua!1997",
+  "githubClientId": "42f3bc12aef59468decd",
+  "githubClientSecret": "c9b9a20ceadb198c488ac39681f13dbcf7f751ba"
 }
